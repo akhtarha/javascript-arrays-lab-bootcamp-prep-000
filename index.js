@@ -21,7 +21,7 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  kittens.push(name)
+  var new_arr = kittens.push(name)
   return kittens
 }
 
@@ -36,3 +36,22 @@ function removeLastKitten(){
 function removeFirstKitten(){
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
